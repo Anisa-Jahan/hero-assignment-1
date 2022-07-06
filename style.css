@@ -1,6 +1,7 @@
 body{
     font-family: 'Gulzar', serif;
 }
+/* top of the website*/
 .top-banner{
     
    background-image: url(img/bg-img.jpg);
@@ -8,56 +9,83 @@ body{
    text-align: center;
    margin-bottom: 15px;
    background-size: 100%;
-   
-
+}
+.top-banner h1{
+    font-size: 30px;
+}
+.top-banner h4{
+    font-size: 10px;
 }
 .white-color{
     color: white;
 }
-
-.top-banner p{
+.top-banner h1{
+    font-size: 40px;
+}
+.top-banner h4{
     font-size: 20px;
 }
 .donate-button{
     text-decoration: none;
-    background-color: rgb(235, 138, 138);
+    background-color: rgb(235, 138, 138);;
     padding: 5px 30px;
     border-radius: 5px;
+    font-size: 15px;
+    color: azure;
 }
-.decide-amount p{
-     display: flex;
-     text-align: center;
-     margin-bottom: 15px;
+/*amount decide part*/
+
+#decide-amount-lower-part{
+    text-align: center;
+    display: flex;
+    margin: 10px 20px;
 }
 
+#decide-amount-upper-part{
+    text-align: center;
+    display: flex;
+    margin: 10px 10px;
+}
 .tk-buton{
     margin: 10px 10px;
     border: 5px solid rebeccapurple;
     padding: 5px 5px;
     color: brown;
 }
-.donate-plan{
+#input-fild{
+    text-align: center;
+    margin: 10px 10px;
     display: flex;
-    margin-bottom: 15px;
-    text-align: center;
 }
-.donate-plan-img{
-    width: 5px;
-    height: 5px;
 
+/*donation plan part*/
+
+.donate-plan{
+ text-align: center;
 }
-.decide-amount{
-    text-align: center;
+
+.flexible-container{
     display: flex;
 }
 .donate-plan-box{
-    border: 0 solid white;
-    margin: 40px 40px;
+    text-align: center;
+    border: 2px solid white;
+    margin: 20px 20px;
     padding: 10px 10px;
 
 }
     
-    
+#bg-color-box1{
+    background-color: rgb(240, 218, 192);
+}
+#bg-color-box2{
+    background-color: aquamarine;
+}
+#bg-color-box3{
+    background-color: khaki;
+}
+
+/*footer*/
 footer{
     color: rgb(80, 12, 12);
     background-color: cadetblue;
@@ -65,13 +93,4 @@ footer{
     height: 100px;
     text-align: center;
     font-size: 25px;
-}
-#bg-color-1{
-    background-color: rgb(240, 218, 192);
-}
-#bg-color-2{
-    background-color: aquamarine;
-}
-#bg-color-3{
-    background-color: khaki;
 }

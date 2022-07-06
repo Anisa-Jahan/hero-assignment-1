@@ -10,59 +10,70 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!--top of the website-->
-    <div class="top-banner">
-        <h1><span class="white-color">Let's help those who need our support right now</span></h1>
-        <p><span class="white-color">We know the current situation of Sylher. This is one of the beautiful district in our country.</span></p>
+    <section class="top-banner">
+        <h1 id><span class="white-color">Let's help those who need our support right now.</span></h1>
 
-        <p><span class="white-color">But now-a-days our sylhet if destroyed for the bad effect of flood. People of flooded area nooe our help. we have to rise our hands for them.</span></p>
+        <h5>
+            <span class="white-color">We know the current situation of Sylher. This is one of the beautiful district in our country.
+            But now-a-days our sylhet if destroyed for the bad effect of flood. People of flooded area nooe our help. we have to rise our hands for them.</span>
+        </h5>
         <a class="donate-button" target="_blank"  href="">Donate Now</a>
+    </section>
 
-        <!--amount decide part-->
-    </div>
-    <div class="decide-amount">
-        <h1>Decide Your Amount</h1>
-        <p>You can decide your amount of donation. some of are given below for you. you can also decide other amount</p>
-        <button class="tk-buton">100 TK</button>
-        <button class="tk-buton">200 TK</button>
-        <button class="tk-buton">500 TK</button>
-        <button class="tk-buton">1000 TK</button>
-        <button class="tk-buton">5000 TK</button>
-        <hr>
-        
+    <!--amount decide part-->
+    <section>
+        <div id="decide-amount-upper-part" class="flexible-container">
+            <h1>Decide Your Amount</h1>
+            <p>You can decide your amount of donation. some of are given below for you. you can also decide other amount</p>
+        </div>
+        <div id="decide-amount-lower-part" class="flexible-container">
+            <button class="tk-buton">100 TK</button>
+            <button class="tk-buton">200 TK</button>
+            <button class="tk-buton">500 TK</button>
+            <button class="tk-buton">1000 TK</button>
+            <button class="tk-buton">5000 TK</button>
+            <hr>
+        </div>
+        <div id="input-fild">
         <input type="text">
         <br>
         <button class="donate-button">Donate Now</button>
-
-    </div>
+        </div>
+    </section>
 
     <!--donation plan part-->
-    <div class="donate-plan">
+    <section>
+        <div class="donate-plan">
         <h1>Our Donate Plan</h1>
         <p>Here is our donate plan. You can choice anyone of them. Then we use your donation to our plan which you choiced</p>
-
-        <div class="donate-plan-box" id="bg-color-1">
-            <img class="donate-plan-img" src="icon/money.jpg" alt="">
-            <h1>Money for a family</h1>
-            <p>In this situation most of the family need more money for recover their problems of flood effect.If you can donate some amount of money to any of the effected family, they will solve at lest some of their problems. Your donation is too much important for them</p>
         </div>
 
-        <div class="donate-plan-box" id="bg-color-2">
-            <img class="donate-plan-img" src="icon/food.png" alt="">
-            <h1>Donation for food</h1>
-            <p>You can donate for food. We will use your donation for our food service. Maximum people right now out of their house. They can't manage their food. Your donation will help us for manage their food.</p>
+        <div class="flexible-container">
+            <div class="donate-plan-box" id="bg-color-box1">
+                
+                <h1>Money for a family</h1>
+                <p>In this situation most of the family need more money for recover their problems of flood effect.If you can donate some amount of money to any of the effected family, they will solve at lest some of their problems. Your donation is too much important for them</p>
+            </div>
+    
+            <div class="donate-plan-box" id="bg-color-box2">
+                
+                <h1>Donation for food</h1>
+                <p>You can donate for food. We will use your donation for our food service. Maximum people right now out of their house. They can't manage their food. Your donation will help us for manage their food.</p>
+            </div>
+    
+            <div class="donate-plan-box" id="bg-color-box3">
+                
+                <h1>Manage cloth or donate for it</h1>
+                <p>In this bad situation they need cloths. Mianly childrens and womens are need this. They are out of their house and can't manage more cloths. Your donation will help us to for manage more cloths for them. You can also give cloths as donation</p>
+            </div>
         </div>
-
-        <div class="donate-plan-box" id="bg-color-3">
-            <img class="donate-plan-img" src="icon/cloth.png" alt="">
-            <h1>Manage cloth or donate for it</h1>
-            <p>In this bad situation they need cloths. Mianly childrens and womens are need this. They are out of their house and can't manage more cloths. Your donation will help us to for manage more cloths for them. You can also give cloths as donation</p>
-        </div>
-        
-    </div>
+        </section>
 </body>
 
+<!--footer-->
 <footer>
     <b><i>Be Humble for them. You will gain something best from their prayer</i></b>
 </footer>
