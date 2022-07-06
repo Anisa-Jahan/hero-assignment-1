@@ -32,3 +32,9 @@ footer{
     width: 100%;
     height: 100px;
 }
+.tk-buton{
+    margin: 30px 30px;
+    border: 5px solid rebeccapurple;
+    padding: 15px 15px;
+    color: brown;
+}
