@@ -11,8 +11,10 @@ section{
    background-image: url(img/bg-img.jpg);
    background-repeat: no-repeat;
    text-align: center;
-   margin-bottom: 15px;
-   background-size: 100%;
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+   width: 100%;
 }
 .top-banner h1{
     font-size: 30px;
@@ -31,35 +33,49 @@ section{
 }
 .donate-button{
     text-decoration: none;
-    background-color: rgb(235, 138, 138);;
+    background-color: rgb(235, 138, 138);
     padding: 5px 30px;
     border-radius: 5px;
     font-size: 15px;
     color: azure;
 }
 /*amount decide part*/
-
-#decide-amount-lower-part{
+.amount-decide{
     text-align: center;
-    display: flex;
-    margin: 10px 20px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    margin-top: 150px;
+}
+#amount-decide-upper h1{
+font-size: 30px;
 }
 
-#decide-amount-upper-part{
-    text-align: center;
-    display: flex;
-    margin: 10px 10px;
-}
 .tk-buton{
     margin: 10px 10px;
     border: 5px solid rebeccapurple;
-    padding: 5px 5px;
+    padding: 25px 25px;
     color: brown;
+    width: 10%;
 }
 #input-fild{
     text-align: center;
+    margin: 40px 40px; 
+}
+#input-fild p{
+    text-align: center;
+    border-bottom: 2px solid rgb(196, 194, 194);
+    color: rgb(196, 194, 194);
     margin: 10px 10px;
-    display: flex;
+    
+}
+#amount-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: azure;  
+    
 }
 
 /*donation plan part*/
@@ -80,6 +96,7 @@ section{
     margin: 20px 20px;
     padding: 10px 10px;
     box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
 
 }
     
