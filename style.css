@@ -33,11 +33,12 @@ section{
 }
 .donate-button{
     text-decoration: none;
-    background-color: rgb(235, 138, 138);
+    background-image: linear-gradient(rgb(154, 177, 228), rgb(125, 63, 196));
     padding: 5px 30px;
     border-radius: 5px;
     font-size: 15px;
     color: azure;
+    border: 0 solid white; 
 }
 /*amount decide part*/
 .amount-decide{
@@ -61,13 +62,7 @@ font-size: 30px;
     text-align: center;
     margin: 40px 40px; 
 }
-#input-fild p{
-    text-align: center;
-    border-bottom: 2px solid rgb(196, 194, 194);
-    color: rgb(196, 194, 194);
-    margin: 10px 10px;
-    
-}
+
 #amount-button{
     text-decoration: none;
     background-image: linear-gradient(orange, red);
@@ -75,6 +70,7 @@ font-size: 30px;
     border-radius: 5px;
     font-size: 15px;
     color: azure;  
+    border: 0 solid white; 
     
 }
 
@@ -109,6 +105,25 @@ font-size: 30px;
 #bg-color-box3{
     background-color: khaki;
 }
+/*join with us form*/
+.form-text{
+    text-align: center;
+}
+.form{
+    text-align: center;
+    border: 5px double palevioletred;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#form-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(206, 128, 206), rgb(129, 129, 206));
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: azure;  
+    border: 0 solid white; 
+}  
 
 /*get update part*/
 #get-update-text{
