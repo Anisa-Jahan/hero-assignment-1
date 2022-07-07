@@ -7,29 +7,23 @@ section{
 
 /* top of the website*/
 .top-banner{
-    
-   background-image: url(img/bg-img.jpg);
-   background-repeat: no-repeat;
-   text-align: center;
-   background-size: cover;
-   background-position: center;
-   height: 100%;
-   width: 100%;
-}
+    background-image: url(img/bg-img.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ 
 .top-banner h1{
     font-size: 30px;
 }
 .top-banner h4{
-    font-size: 10px;
+    font-size: 20px;
 }
 .white-color{
     color: white;
-}
-.top-banner h1{
-    font-size: 40px;
-}
-.top-banner h4{
-    font-size: 20px;
 }
 .donate-button{
     text-decoration: none;
@@ -62,6 +56,11 @@ font-size: 30px;
     text-align: center;
     margin: 40px 40px; 
 }
+#input-fild p{
+    border-bottom: 2px solid gray ;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 #amount-button{
     text-decoration: none;
@@ -88,7 +87,7 @@ font-size: 30px;
 }
 .donate-plan-box{
     text-align: center;
-    border: 2px solid white;
+    border: 0 solid white;
     margin: 20px 20px;
     padding: 10px 10px;
     box-shadow: 10px 10px 10px gray;
@@ -97,7 +96,7 @@ font-size: 30px;
 }
     
 #bg-color-box1{
-    background-color: rgb(240, 218, 192);
+    background-color: rgb(241, 214, 182);
 }
 #bg-color-box2{
     background-color: aquamarine;
