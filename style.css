@@ -110,6 +110,36 @@ font-size: 30px;
     background-color: khaki;
 }
 
+/*get update part*/
+#get-update-text{
+  text-align: center;  
+}
+#get-update-email{
+    background-color: rgb(247, 193, 180);
+    border: 0 solid white;
+    width: 30%;
+    height: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%
+    
+}
+#email-button{
+    text-decoration: none;
+    background-color: rgb(228, 125, 125);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: azure; 
+    border: 0 solid white;
+    
+}
+#get-update-email input{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 0 solid white;
+    
+}
 /*footer*/
 footer{
     color: rgb(80, 12, 12);
